@@ -1,0 +1,19 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "search_with_rag",
+            "description": "Useful when you want to search topics in the database with an LLM model using Retrieval Augmented Generation (RAG) approach. What is included in the database are only the following: travel to the UK, travel to Greece. The model will return the most relevant information based on the input question. Call 'search_with_rag' **ONLY** for the above mentioned topics.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "search_phrase": {
+                        "type": "string",
+                        "description": "The search phrase to be used to search the database. The search phrase should be related to the topics in the database. The searchphrase can be a comma-separated list of topics. "
+                    }
+                }
+            },
+            "required": ["search_phrase"]
+        }
+    }
+]

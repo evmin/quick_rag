@@ -1,0 +1,34 @@
+numpy>=1.24.2
+pandas>=2.0.0
+python-dotenv>=1.0.0
+openai>=1.2.4
+pyyaml>=6.0
+urllib3>=1.26.17
+jsonschema==4.20.0
+requests>=2.31.0
+json_repair
+
+# Code Execution related
+ipykernel==6.26.0
+pre-commit>=2.19.0
+tenacity>=8.2.2
+pytest>=7.0.0
+ipywidgets
+
+# APIs
+uvicorn
+fastapi
+python-multipart
+colorlog
+invoke
+azure-monitor-opentelemetry
+
+## Use 2023-10-31-preview
+azure-core
+azure-search-documents
+azure-identity>=1.15.0
+
+chainlit
+streamlit>=1.31.1
+tiktoken
+
